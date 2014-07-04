@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/var/www/bitcoining/db/querydb.php</file>
+            <file>file:/var/www/bitcoining/header.php</file>
+            <file>file:/var/www/bitcoining/index.php</file>
+            <file>file:/var/www/bitcoining/scripts/btccrash.php</file>
+            <file>file:/var/www/bitcoining/plantilla.php</file>
+            <file>file:/var/www/bitcoining/logout.php</file>
+            <file>file:/var/www/bitcoining/exchanges/bitstamp.inc.php</file>
+            <file>file:/var/www/bitcoining/main.php</file>
+            <file>file:/var/www/bitcoining/footer.php</file>
+            <file>file:/var/www/bitcoining/vallogin.php</file>
+        </group>
+    </open-files>
+</project-private>

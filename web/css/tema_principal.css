@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* -------------------------------------Principal -------------------------------------------------*/
+      body {
+        padding-top: 70px;
+        /* padding-top: 60px;
+        padding-bottom: 40px; */
+        background:#000000;
+        color:#bbbbbb;
+        /* background-image: url('../img/fondo.jpg'); */
+        background-repeat: no-repeat;
+	}
+				
+        h1{color:#f8c01e}
+        h2{color:#f8c01e}
+        h3{color:#f8c01e}
+        /* 
+        input[type="textarea"] { 
+            background-color: #ffff99
+          } 
+        */
+        .goldformat{
+                background-color:#222222;
+                border:2px solid #333;
+                -webkit-border-radius:10px;
+                -moz-border-radius:10px;
+                border-radius:10px;
+                padding-top: 10px;
+                padding-right: 20px;
+                padding-bottom: 10px;
+                padding-left: 20px;
+        }
