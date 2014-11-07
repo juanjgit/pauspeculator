@@ -4,11 +4,11 @@
 //-------------Info del Exchange a Tradear...
 
 $idUser=3;
-$mailUser='pausoluciones@gmail.com';
+$mailUser='xxxxxxxxxxxxx@gmail.com';
 $ecoin='ltc';
 $exchange='btce';
-$key='ZJRN5UKR-PRA1IU8Q-DE7E4ES1-XDCUNJVS-GVR1LUDO';
-$secret='483980f8f6e47a244ee16d1483e438d1dd063f97eb90947c41b4ac41aa9d18af';
+$key='xxxxxxxxxxxxxxxxxxxxx';
+$secret='xxxxxxxxxxxxxxxxxxxxxxx';
 $id_exchange='';
 
 //---------Parametros de configuracion del script------
