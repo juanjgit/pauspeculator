@@ -216,7 +216,7 @@ switch ($metodo) {
 if ($ecoinModo=='venta') { 
 	if (!$decisionCompra)
 	{
-        $salida.='El metodo '.$medodo.' aconseja VENDER!! (Precio Actual='.$ecoinPrecio.' Modo: '.$ecoinModo.' Media corta: '.$precioMediaSmall.' Media larga: '.$precioMediaLarge.' Histograma: '.$histograma.' )'."\r\n";
+        $salida.='El metodo '.$metodo.' aconseja VENDER!! (Precio Actual='.$ecoinPrecio.' Modo: '.$ecoinModo.' Media corta: '.$precioMediaSmall.' Media larga: '.$precioMediaLarge.' Histograma: '.$histograma.' )'."\r\n";
         $mail=1; //Marcamos para notificar por mail
         $mailEcoinModo=$ecoinModo; //Marcamos variable para enviar por Email-Venta
 
@@ -225,7 +225,7 @@ if ($ecoinModo=='venta') {
                 $ecoinPrecioOperacion= intval($ecoinPrecioOperacion*100)/100; //truncamos los decimales a dos
                 $ecoinNum=$ecoinDisp;
                 $salida.='Se van a vender '.$ecoinNum.' '.$ecoin.' a '.$ecoinPrecioOperacion.' dolares '."\r\n";
-                 // /*
+                // /*
                 $arraySellEcoins=$oTrade->sellEcoins($ecoinNum, $ecoinPrecioOperacion);//Vende 1% mas barato para que entre la venta 
                 print_r($arraySellEcoins);
                 
@@ -311,7 +311,7 @@ else {
 if ($enviarMail==1 and $mail===1){
     //Envia un correo para decir que ha pasado
 
-    $monitorAddress='llenamedecaca@gmail.com'; //direccion de copia
+    $monitorAddress=null; //direccion de copia
     $mailFrom = 'support@ecoining.com';
     $mailTo = $mailUser;
     $mailSubject = $mailEcoinModo. ' de '.$ecoin.' a '.$ecoinPrecio.' dolares';
