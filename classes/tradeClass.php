@@ -230,8 +230,7 @@ class trade {
 		$exchange = $this->exchange;
 		$ecoin = $this->ecoin;
 		$precioAnterior=null;
-		$resultado = array();	
-		$preciosArray= array();
+		
 		$oConectar = new conectorDB; 
 		$fechaSQLfinal = '"'.$fecha.'"';
 		
@@ -244,8 +243,7 @@ class trade {
                                        coin_exchange.ecoin="'.$ecoin.'" AND
                                        coin_exchange.fecha_hora
                                 BETWEEN '.$fechaSQLinicial.' AND '.$fechaSQLfinal;
-			$preciosArray =  $oConectar->consultarBD($consulta);
-			$resultado[$i-1] = $preciosArray[0]['precio'];
+			$resultado[$i-1]=$oConectar->consultarBD($consulta)[0]['precio'];
 			if ($resultado[$i-1] == null) {
 				// En el caso de que el valor mas reciente sea nulo, abortamos
 				if ( $i == 1 ) {
