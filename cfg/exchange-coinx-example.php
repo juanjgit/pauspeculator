@@ -6,7 +6,7 @@ $idUser=1;
 $mailUser='xxxxxxx@xxxxxx.xxx';
 // Moneda. Posibles valores: btc, ltc
 $ecoin='xxx';
-// Exchange. Posibles valores: bitstamp, btce, xryptsy
+// Exchange. Posibles valores: bitstamp, btce
 $exchange='xxxx';
 $key='xxxxxxxxxxxxxxxxxx';
 $secret='xxxxxxxxxxxxxxxxxxxxxx';
